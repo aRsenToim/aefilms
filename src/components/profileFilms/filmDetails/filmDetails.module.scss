@@ -1,0 +1,16 @@
+.Film__details {
+    margin: 20px;
+    .Silders{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+@media(max-width: 1700px){
+    .Film__details {
+        margin: 20px 10px;
+        .Silders{
+            display: block;
+        }
+    }
+}

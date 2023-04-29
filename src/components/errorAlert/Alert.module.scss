@@ -1,0 +1,42 @@
+.errorAlert{
+    position: absolute;
+    font-size: 21px;
+    color: red;
+    border-left: 3px solid #F04B5F;
+    background-color: #FCE2E3;
+    padding: 20px;
+    bottom: 0px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    button{
+        margin-left: 10px;
+        background-color: #FF98A6;
+        color: red;
+        border: none;
+        padding: 5px 12px;
+        font-size: 21px;
+        cursor: pointer;
+    }
+}
+.goodAlert{
+    position: absolute;
+    font-size: 21px;
+    color: green;
+    border-left: 3px solid #28B34D;
+    background-color: #8fe7a7;
+    padding: 20px;
+    bottom: 0px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    button{
+        margin-left: 10px;
+        background-color: #8fe7a7;
+        color: green;
+        border: none;
+        padding: 5px 12px;
+        font-size: 21px;
+        cursor: pointer;
+    }
+}

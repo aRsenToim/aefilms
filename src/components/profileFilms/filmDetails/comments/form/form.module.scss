@@ -1,0 +1,108 @@
+.form {
+    background-color: #F2F2F2;
+    width: 750px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+
+    .form__account {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .account__info {
+            display: flex;
+            align-items: flex-start;
+
+            img {
+                width: 55px;
+                border-radius: 200px;
+                box-sizing: border-box;
+            }
+
+            .info {
+                margin-left: 5px;
+
+                h3 {
+                    font-size: 17px;
+                }
+
+                span {
+                    color: #6d6d6d;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        span {
+            font-size: 13px;
+            width: 150px;
+            text-align: end;
+            color: #bbbbbb;
+
+            a {
+                color: rgb(150, 150, 150);
+                text-decoration: none;
+            }
+        }
+    }
+
+    hr {
+        margin-top: 10px;
+    }
+
+    .form__input {
+        .title {
+            margin: 15px 0px;
+            background-color: #F2F2F2;
+            border: 1px solid #ccc;
+            display: block;
+            width: 100%;
+            padding: 12px 10px;
+            font-size: 17px;
+            border-radius: 7px;
+        }
+
+        .title:focus {
+            outline: none;
+            background-color: #dbdbdb;
+        }
+
+        .text {
+            background-color: #F2F2F2;
+            border: 1px solid #ccc;
+            resize: none;
+            width: 100%;
+            height: 400px;
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 17px;
+        }
+
+        .text:focus {
+            outline: none;
+            background-color: #dbdbdb;
+        }
+        .error{
+            color: red;
+        }
+    }
+
+    .form__button {
+        text-align: center;
+        margin: 10px auto;
+        button {
+            padding: 20px 20px;
+            border: none;
+            background: #FF5602;
+            background: -webkit-linear-gradient(top left, #FF5602, #FB9116);
+            background: -moz-linear-gradient(top left, #FF5602, #FB9116);
+            background: linear-gradient(to bottom right, #FF5602, #FB9116);
+            cursor: pointer;
+            border-radius: 40px;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.Search {
+    margin: 100px auto;
+    text-align: center;
+    width: 870px;
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-bottom: 2px solid #242424;
+            background: none;
+            color: #fff;
+            font-size: 22px;
+            font-weight: 600;
+
+            &:focus {
+                outline: none;
+                border-bottom: 2px solid #767676;
+            }
+        }
+    }
+
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 15px;
+
+        .films {
+            background-color: #222222;
+            width: 100%;
+            height: 500px;
+            border-radius: 10px;
+            padding: 20px;
+            cursor: pointer;
+        }
+    }
+}

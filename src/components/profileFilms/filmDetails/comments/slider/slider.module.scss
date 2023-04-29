@@ -1,0 +1,33 @@
+.Film__Actors {
+    h1 {
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    .Film__slider {
+        max-width: 800px;
+        height: 285px;
+        overflow: hidden;
+        display: flex;
+        position: relative;
+        align-items: center;
+        button{
+            position: absolute;
+            padding: 7px 15px;
+            border-radius: 20px;
+            border: none;
+            z-index: 2000;
+            background-color: #262626;
+            font-size: 21px;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .left{
+            left: 0;
+        }
+        .right{
+            right: 0;
+        }
+    }
+} 

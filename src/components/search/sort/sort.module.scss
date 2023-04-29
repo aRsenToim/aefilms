@@ -1,0 +1,41 @@
+.sorting {
+    background-color: #222222;
+    width: 30%;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: start;
+
+    .sorting__clear {
+        color: #fff;
+        font-size: 19px;
+        cursor: pointer;
+    }
+
+    .sort {
+        margin-top: 10px;
+
+        h2 {
+            color: #fff;
+            font-size: 22px;
+            font-weight: 500;
+        }
+
+        .sort__checkbox {
+            margin: 10px 1px;
+            display: flex;
+            align-items: center;
+            input{
+                width: 18px;
+                height: 18px;
+                cursor: pointer;
+            }
+            label {
+                cursor: pointer;
+                color: #fff;
+                font-size: 17px;
+                margin-left: 5px;
+            }
+        }
+    }
+}

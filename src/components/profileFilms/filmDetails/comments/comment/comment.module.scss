@@ -1,0 +1,36 @@
+.comment{
+    background-color: #F2F2F2;
+    padding: 10px;
+    border-radius: 20px;
+    width: 750px;
+    .autor{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .autor__title{
+            display: flex;
+            align-items: flex-start;
+            cursor: pointer;
+            img{
+                width: 75px;
+                border-radius: 50px;
+            }
+            .info{
+                margin-left: 10px;
+                h3{
+                    font-size: 23px;
+                }
+            }
+        }
+    }
+    .content{
+        .content__title{
+            font-size: 29px;
+        }
+        margin-top: 5px;
+        p{
+            margin-top: 2px;
+            font-size: 19px;
+        }
+    }
+}

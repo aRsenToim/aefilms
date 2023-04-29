@@ -1,0 +1,12 @@
+.Catalog{
+    padding: 25px;
+    .title{
+        color: #fff;
+        font-size: 30px;
+    }
+    .Catalog__cards{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+    }
+}

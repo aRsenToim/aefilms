@@ -1,0 +1,22 @@
+.Card {
+    width: 270px;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: 0.2s width;
+    img {
+        width: 100%;
+    }
+
+    h3 {
+        color: #fff;
+        font-weight: 600;
+        margin: 4px 0px;
+    }
+
+    span {
+        color: #ccc;
+    }
+    &:hover{
+        width: 260px;
+    }
+}

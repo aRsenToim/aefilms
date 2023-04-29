@@ -1,0 +1,56 @@
+.Navbar {
+    background-color: #262626;
+    padding: 15px;
+    text-align: center;
+    min-height: 100%;
+    height: 100vh;
+
+    .navlink {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .Logo {
+        font-size: 21px;
+        color: #fff;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .links {
+        margin-top: 25px;
+
+        li {
+            margin: 25px 0px;
+            list-style: none;
+
+            .item {
+                svg {
+                    width: 25px;
+                    cursor: pointer;
+
+                    path {
+                        stroke: #fff;
+                    }
+
+                    &:hover {
+                        path {
+                            stroke: #be5552;
+                        }
+                    }
+                }
+            }
+
+            .active {
+                svg {
+                    width: 25px;
+                    cursor: pointer;
+
+                    path {
+                        stroke: #be5552;
+                    }
+                }
+            }
+        }
+    }
+}
